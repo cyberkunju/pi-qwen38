@@ -1,0 +1,28 @@
+{
+  "$schema": "https://pi.dev/schemas/models.schema.json",
+  "providers": {
+    "qwen38-flash-next": {
+      "name": "Qwen3.8-Flash-Next (Modal)",
+      "baseUrl": "https://kunjutemp--qwen38-flash-next-serve.us-east.modal.run/v1",
+      "api": "openai-completions",
+      "apiKey": "sk-nD2Gra3Slb1-akhp0vqmWjKeGfv_bvrqufyRmqfM_0w",
+      "authHeader": true,
+      "models": [
+        {
+          "id": "qwen3.8-flash-next-q4_k_m",
+          "name": "Qwen3.8-Flash-Next Q4_K_M",
+          "reasoning": true,
+          "input": ["text"],
+          "contextWindow": 262144,
+          "maxTokens": 65536,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        }
+      ]
+    }
+  }
+}

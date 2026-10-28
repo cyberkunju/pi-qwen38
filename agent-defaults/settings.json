@@ -1,0 +1,4 @@
+{
+  "defaultProvider": "qwen38-flash-next",
+  "defaultModel": "qwen3.8-flash-next-q4_k_m"
+}
